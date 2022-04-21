@@ -28,11 +28,25 @@
          </nav>
 
          <ul class="info">
-            <li class="info-list"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="info-list"><a class="tel" href="tel:+380961111111">+38(096)111 11 11</a></li>
+            <li class="info-list">
+
+               <a class="info-link" href="mailto:info@devstudio.com">
+                  <svg class="info-icon" width="16" height="12">
+                     <use href="./img/icon/icons.svg#icon-envelope"></use>
+                  </svg>
+                  info@devstudio.com</a>
+            </li>
+            <li class="info-list">
+               <a class="info-link" href="tel:+380961111111">
+                  <svg class="info-icon" width="10" height="16">
+                     <use href="./img/icon/icons.svg#icon-phone"></use>
+                  </svg>
+                  +38(096)111 11 11</a>
+            </li>
          </ul>
       </div>
    </header>
+
 
    <!--Новий розділ стосовно сторінки 2 ------------------------------------ -->
    <main>
@@ -143,11 +157,14 @@
          </div>
       </section>
    </main>
+
    <!--секція Футер-->
    <footer class="section footer">
-      <div class="container footer">
 
-         <h2 class="visually-hidden">Address</h2>
+
+      <div class="container footerstyle">
+
+         <!--<h2 class="visually-hidden">Address</h2>-->
          <div class="container-box">
             <a class="logo-footer" href="index.html"><span style="color: var(--accent-color)">Web</span>Studio</a>
             <address class="adress-title">
@@ -161,7 +178,47 @@
                </ul>
             </address>
          </div>
+         <div class="common">
+            <h2 class="common-name">Присоединяйтесь</h2>
+            <ul class="common-tags">
+               <li class="common-list">
+                  <a class="common-logo" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Инстаграм">
 
+                     <svg class="common-icon" width="20" height="20">
+                        <use href="./img/icon/icons.svg#icon-instagram"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="common-list">
+                  <a class="common-logo" href="//www.https://twitter.com/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Твитер">
+
+                     <svg class="common-icon" width="20" height="20">
+                        <use href="./img/icon/icons.svg#icon-twitter"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="common-list">
+                  <a class="common-logo" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Фейсбук">
+
+                     <svg class="common-icon" width="20" height="20">
+                        <use href="./img/icon/icons.svg#icon-facebook"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="common-list">
+                  <a class="common-logo" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                     aria-label="Линкедин">
+
+                     <svg class="common-icon" width="20" height="20">
+                        <use href="./img/icon/icons.svg#icon-linkedin"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+         </div>
       </div>
    </footer>
 </body>
