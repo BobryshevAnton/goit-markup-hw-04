@@ -462,6 +462,7 @@ section.work {
 .personals-tags {
    display: flex;
    justify-content: center;
+   margin-top: 16px;
 }
 
 
@@ -474,6 +475,11 @@ section.work {
    justify-content: center;
    margin-right: 10px;
 }
+
+.persomal-link:last-child) {
+   margin-right: 0px;
+}
+
 
 .socials {
    display: flex;
@@ -515,6 +521,7 @@ section.work {
    padding-top: 94px;
    padding-bottom: 94px;
 }
+
 
 .client-title {
    color: var(--title-text-color);
@@ -650,8 +657,7 @@ section.work {
    font-size: 14px;
    line-height: 1.14;
    display: flex;
-   margin-left: auto;
-   margin-right: auto;
+
 
 }
 
@@ -664,6 +670,10 @@ section.work {
 
 .common-list {
    margin-right: 10px;
+}
+
+.common-list:last-child {
+   margin-right: 0px;
 }
 
 .common-logo {
